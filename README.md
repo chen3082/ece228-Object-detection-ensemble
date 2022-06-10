@@ -25,7 +25,7 @@ Our .ipynb were tested in the following environment.
   
 ### 1. Download the dataset  
 Download the dataset from Penn-Fundan dataset website:  <br>
-https://www.cis.upenn.edu/~jshi/ped_html/ <br>
+https://www.cis.upenn.edu/~jshi/ped_html/ <br><br>
 Then, execute the following command.
 ```
 # unzip dataset
