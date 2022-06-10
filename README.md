@@ -25,18 +25,19 @@ Our .ipynb were tested in the following environment.
   
 ### 1. Download the dataset  
 Download the dataset from Penn-Fundan dataset website: https://www.cis.upenn.edu/~jshi/ped_html/
-Then, execute the following commands.
+Then, execute the following command.
 ```
 # unzip dataset
 unzip PennFudanPed.zip
 ```
 ### 2. Training
 Run the following file depending on your purpose.
-##### To run bagging:
+> To run bagging:
   baggingRun.ipynb
-##### To run ensemble algorithm for different backbone and different architecture:
+> To run ensemble algorithm for different backbone and different architecture:
   ensemble_algorithm.ipynb
-##### To run Data augmentation:
+> To run Data augmentation:
   augment_exp.ipynb
-##### To run Test-time augmentation:
+> To run Test-time augmentation:
   augment_exp.ipynb
+
