@@ -34,10 +34,10 @@ unzip PennFudanPed.zip
 Run the following file depending on your purpose.
 
 > To run bagging:<br>
-  baggingRun.ipynb<br>
+  ```baggingRun.ipynb```<br>
   
 > To run ensemble algorithm for different backbone and different architecture: <br>
-  ensemble_algorithm.ipynb<br>
+  ```ensemble_algorithm.ipynb```<br>
   
 > To run Data augmentation:<br>
   augment_exp.ipynb<br>
@@ -45,5 +45,5 @@ Run the following file depending on your purpose.
 Experiment different transformation methods: comment out different lines in cell 2 of  ```augment_exp.ipynb```.
   
 > To run Test-time augmentation:<br>
-  augment_exp.ipynb<br>
+  ```augment_exp.ipynb```<br>
 
