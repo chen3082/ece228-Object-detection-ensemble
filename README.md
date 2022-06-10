@@ -1,4 +1,5 @@
 # ece228-Object-detection-ensemble
+A comprehensive study for object detection model ensemble
 # requirement
   numpy==1.21.1
   
