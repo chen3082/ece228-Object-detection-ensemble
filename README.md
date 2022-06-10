@@ -1,13 +1,19 @@
 # ece228-Object-detection-ensemble
-# requirement.txt 
+# requirement
   numpy==1.21.1
   
   torch==1.9.0+cu111
+  
   torchmetrics==0.8.2
+  
   torchsummary==1.5.1
+  
   torchvision==0.10.0+cu111
+  
   Pillow==8.3.1
+  
   wandb==0.21.7
+  
   pprintpp==0.4.0
   
   Need to install pycocotools from coco website
