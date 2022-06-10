@@ -55,7 +55,7 @@ utils.py
 baggingRun.ipynb
 ensemble_algorithm.ipynb
 augment_exp.ipynb
-
+AUG_TTA_experiments.ipynb
 ```
 ### 3. Training
 Run the following files depending on your purpose.
@@ -66,11 +66,11 @@ Run the following files depending on your purpose.
 > To run ensemble algorithm for different backbone and different architecture: <br>
   ```ensemble_algorithm.ipynb```<br>
   
-> To run Data augmentation:<br>
+> To run Data augmentation experiments:<br>
   ```augment_exp.ipynb```<br>
 
 Experiment different transformation methods: comment out different lines in cell 2 of  ```augment_exp.ipynb```.
   
 > To run Test-time augmentation:<br>
-  ```augment_exp.ipynb```<br>
+  ```AUG_TTA_experiments.ipynb```<br>
 
