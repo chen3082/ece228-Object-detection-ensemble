@@ -15,12 +15,19 @@ Our .ipynb were tested in the following environment.
   
   Pillow==8.3.1
   
-  wandb==0.21.7
-  
   pprintpp==0.4.0
+  
+  If you want to generate the figures we show in the report, please register an account here: <br>
+  https://wandb.ai/site
+  
+  and get the requirement: <br>
+  wandb==0.21.7
   
   Need to install pycocotools from coco website <br>
   https://cocodataset.org/#home
+  
+  or execute the command:
+  ```pip install pycocotools```
 
   
 ### 1. Download the dataset  
@@ -34,7 +41,7 @@ unzip PennFudanPed.zip
 ### 2. Training
 Run the following file depending on your purpose.
 
-> To run bagging:<br>
+> To run bagging experiment:<br>
   ```baggingRun.ipynb```<br>
   
 > To run ensemble algorithm for different backbone and different architecture: <br>
