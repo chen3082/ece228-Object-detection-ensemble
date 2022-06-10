@@ -1,6 +1,6 @@
 # ece228-Object-detection-ensemble
 A comprehensive study for object detection model ensemble
-# requirement
+### requirement
   numpy==1.21.1
   
   torch==1.9.0+cu111
@@ -23,14 +23,20 @@ A comprehensive study for object detection model ensemble
   And downlaod the dataset from Penn-Fundan dataset website
   https://www.cis.upenn.edu/~jshi/ped_html/
   
-  
-  
- 
-# To run bagging:
+### 1. Download the dataset  
+The dataset is available here: https://www.cis.upenn.edu/~jshi/ped_html/
+Then, execute the following commands.
+```
+# unzip dataset
+unzip PennFudanPed.zip
+```
+### 2. Training
+Run the following file depending on your purpose.
+### To run bagging:
   baggingRun.ipynb
-# To run ensemble algorithm for different backbone and different architecture:
+### To run ensemble algorithm for different backbone and different architecture:
   ensemble_algorithm.ipynb
-# To run Data augmentation:
+### To run Data augmentation:
   augment_exp.ipynb
-# To run Test time augmentation:
+### To run Test time augmentation:
   augment_exp.ipynb
