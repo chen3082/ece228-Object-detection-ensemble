@@ -1,5 +1,6 @@
 # ece228-Object-Detection-Ensemble
 A comprehensive study for object detection model ensemble
+
 ## Requirements
 Our .ipynb were tested in the following environment.
 
@@ -38,8 +39,26 @@ Then, execute the following command.
 # unzip dataset
 unzip PennFudanPed.zip
 ```
-### 2. Training
-Run the following file depending on your purpose.
+### 2. Prepare the folders dependency
+
+Clone or download our project and place the folders in the following format: <br>
+
+```
+PennFudanPed/
+pycocotools_my/
+torchmetrics/
+engine_my.py
+coco_eval_my.py
+coco_utils.py
+transforms.py
+utils.py
+baggingRun.ipynb
+ensemble_algorithm.ipynb
+augment_exp.ipynb
+
+```
+### 3. Training
+Run the following files depending on your purpose.
 
 > To run bagging experiment:<br>
   ```baggingRun.ipynb```<br>
