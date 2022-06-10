@@ -27,7 +27,7 @@ A comprehensive study for object detection model ensemble
   
  
 # To run bagging:
-  bagging2.ipynb
+  baggingRun.ipynb
 # To run ensemble algorithm for different backbone and different architecture:
   ensemble_algorithm.ipynb
 # To run Data augmentation:
