@@ -19,12 +19,13 @@ Our .ipynb were tested in the following environment.
   
   pprintpp==0.4.0
   
-  Need to install pycocotools from coco website
+  Need to install pycocotools from coco website <br>
   https://cocodataset.org/#home
 
   
 ### 1. Download the dataset  
-Download the dataset from Penn-Fundan dataset website: https://www.cis.upenn.edu/~jshi/ped_html/ <br>
+Download the dataset from Penn-Fundan dataset website:  <br>
+https://www.cis.upenn.edu/~jshi/ped_html/ <br>
 Then, execute the following command.
 ```
 # unzip dataset
@@ -40,7 +41,7 @@ Run the following file depending on your purpose.
   ```ensemble_algorithm.ipynb```<br>
   
 > To run Data augmentation:<br>
-  augment_exp.ipynb<br>
+  ```augment_exp.ipynb```<br>
 
 Experiment different transformation methods: comment out different lines in cell 2 of  ```augment_exp.ipynb```.
   
