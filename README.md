@@ -1,6 +1,7 @@
 # ece228-Object-detection-ensemble
 # requirement.txt 
   numpy==1.21.1
+  
   torch==1.9.0+cu111
   torchmetrics==0.8.2
   torchsummary==1.5.1
