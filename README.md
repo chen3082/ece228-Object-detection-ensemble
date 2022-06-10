@@ -1,4 +1,4 @@
-# ece228-Object-detection-ensemble
+# ece228-Object-Detection-Ensemble
 A comprehensive study for object detection model ensemble
 ## Requirements
 Our .ipynb were tested in the following environment.
