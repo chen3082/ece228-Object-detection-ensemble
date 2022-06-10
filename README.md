@@ -41,6 +41,8 @@ Run the following file depending on your purpose.
   
 > To run Data augmentation:<br>
   augment_exp.ipynb<br>
+  *Experiment different transformation methods: comment out the line in cell 2 of '''augment_exp.ipynb'''.
+  
 > To run Test-time augmentation:<br>
   augment_exp.ipynb<br>
 
